@@ -1,0 +1,11 @@
+class Amazon_Locators:
+    serchbar='//*[@id="twotabsearchtextbox"]'
+    laptop ='/html/body/div[1]/header/div/div[2]/div/div[2]/div/div[1]/div[2]/div/div'
+    pricevalue='/html/body/div[1]/div[2]/div[1]/div[2]/div/div[3]/span/div[1]/div/div/div[5]/ul[1]/span[3]/li/span/a/span'
+    slect_Laptop='/html/body/div[1]/div[2]/div[1]/div[1]/div/span[1]/div[1]/div[3]/div/div/div/div/div/div/div/div[2]/div/div/div[1]/h2/a/span'
+    addtocart='//*[@id="add-to-cart-button"]'
+    cart='//*[@id="nav-cart-count"]'
+    #proceed='/html/body/div[4]/div[3]/div/div/div[1]/div[3]/div[1]/div[2]/div[3]/span/span/input'
+    quantity='/html/body/div[1]/div[2]/div[3]/div[5]/div/div[2]/div[1]/div/form/div[2]/div[3]/div[4]/div/div[2]/div[1]/span[1]/span/span[1]/span/span/span/span'
+    Quantity='//*[@id="quantity_2"]'
+    delete='/html/body/div[1]/div[2]/div[3]/div[5]/div/div[2]/div[1]/div/form/div[2]/div[3]/div[4]/div/div[2]/div[1]/span[2]/span/input'
