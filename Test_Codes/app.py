@@ -19,7 +19,6 @@ class Test_code1:
 
 
     def test_search(self, booting_function):
-        #test case 1 validating side pane of orange hrm in upper and lower case
         #self.driver.find_element(by=By.XPATH, value=locators.Amazon_Locators().serchbar).send_keys(data.Amazon_data.serch_name)
         self.driver.find_element(by=By.XPATH, value=locators.Amazon_Locators().serchbar).click()
         sleep(5)
